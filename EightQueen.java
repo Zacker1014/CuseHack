@@ -1,8 +1,3 @@
-// Kevin Kao
-// kkao4@u.rochester.edu
-// Lab6
-// I did not collaborate with anyone on this lab
-
 import java.util.ArrayList;
 
 public class EightQueen {
