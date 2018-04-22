@@ -8,11 +8,9 @@ import java.util.ArrayList;
 public class EightQueen {
 
     public static void main(String[] args) {
-
         System.out.println("finding eight queen (all solutions): ");
         ArrayList<ArrayList<Integer>> solutions = findEightQueen(); // call the findEightQueen method
         ArrayListToArray(solutions); // change the 2DArrayList to 2DArray
-
     }
 
     // findEightQueen method
