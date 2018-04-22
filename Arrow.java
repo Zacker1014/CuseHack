@@ -126,13 +126,7 @@ public class Arrow  extends JComponent implements KeyListener{
 	}
 	
 	
-	
-	
-	@Override
-	public void keyTyped(KeyEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 	@Override
 	public void keyPressed(KeyEvent e) {
@@ -145,6 +139,7 @@ public class Arrow  extends JComponent implements KeyListener{
 			else {
 				change = true;
 			}
+			
 		}
 		
 		if(!change) {
@@ -165,7 +160,8 @@ public class Arrow  extends JComponent implements KeyListener{
 				break;
 				
 			default: 
-				rotateUp1 = false;
+				rotateUp1 = true;
+				repaint();
 			}
 		}
 		
@@ -188,7 +184,8 @@ public class Arrow  extends JComponent implements KeyListener{
 				break;
 				
 			default: 
-				rotateUp2 = false;
+				rotateUp2 = true;
+				repaint();
 			}
 		}
 		
@@ -196,8 +193,16 @@ public class Arrow  extends JComponent implements KeyListener{
 	}
 
 	
+	
 	@Override
 	public void keyReleased(KeyEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	@Override
+	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
